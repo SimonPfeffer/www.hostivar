@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Pozicování objektu</title>
+
+    <style>
+           .obrazek{
+            width: 100px;
+            height: 100px;
+            background-color: darkcyan;
+           }
+           .prvni{
+            background-color: darkorchid;
+            display: flex;
+            justify-content:center ;
+            align-items:center ;
+            flex-direction:column ;
+           }
+           .druhy{
+            display:flex ;
+            justify-content:space-between ;
+            flex-direction:row ;
+           }
+           h1{
+            display: none;
+           }
+           h2{
+            background-color: red;
+            position: absolute;
+            top: 0;
+            right: 50%;
+           }
+    </style>
+</head>
+<body>
+    <div class="prvni">
+        <div class="obrazek"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, sapiente aut tempore ipsum asperiores necessitatibus. Quos sapiente corrupti qui? Molestiae praesentium aspernatur laudantium modi maxime est, ut fugit. Debitis, facilis?</p>
+    </div>
+    <div class="druhy">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat deserunt quis quisquam totam fugiat non consectetur, deleniti officia sint fugit, qui beatae ex eveniet quae dicta voluptatum, velit porro. Nesciunt?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sequi maiores, est eveniet quisquam error itaque, rem laborum unde esse optio consequatur quidem dolorem animi et, ut tempore a minus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quo harum! Dolorem error commodi modi consectetur illo nesciunt recusandae consequatur sit voluptatibus corrupti quis blanditiis quam, animi quo vitae magnam?</p>
+    </div>
+    <h1>Tento text není vidět</h1>
+    <h2>Tento text je vidět vždy</h2>
+</body>
+</html>
