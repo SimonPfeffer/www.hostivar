@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stavy odkazů</title>
+    <style>
+        a{
+            color: #dd44cc;
+            background-color: #c5c5c5;
+
+            text-decoration: none; /*ruší podtržení odkazů*/
+            cursor: pointer; /*mění ukazatel myši*/
+        }
+
+        /*stavy fungují na všechny prvky*/
+        a:hover{ /*přejetí myší*/
+                font-size: 28px;
+        }
+        a:active{ /*kliknutí*/
+                 color: #00b3f5;
+        }
+        a:visited{ /*stav po navštívení*/
+            color:black ;
+            background-color:#ccc ;
+            text-decoration:underline ;
+        }
+        a:link{ /*nenavštívený odkaz*/
+        }
+
+
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" class="projekt">Google</a>
+    <a href="https://skolahostivar.cz" class="kliknuti">Škola</a>
+</body>
+</html>
