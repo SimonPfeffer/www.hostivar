@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obrázky v pozadí a atributy CSS</title>
+    <style>
+        .obrazek{
+            background-image: url("1672224759739.jpg");
+            /*nepraktické pro menší objekty*/
+        }
+        .pacner{
+            width: 500px;
+            height: 500px;
+
+            background-image: url("1672224759739.jpg");
+            background-position: center; /*posun obrázku na pozadí (top, left, right, center, etc. nebo číselně (v procentech)*/
+            background-repeat: no-repeat; /*opakování obrázku v přípafě možnosti - repeat, no-repeat, ...*/
+            background-size: 500px; /*mění velikost obrázku v pozadí*/
+        /*specializované příkazy*/
+            opacity: 0.8; /*mění průhlednost prvku*/
+            scale: 1.1; /*škálovatelnost prvku i s pozadím*/
+        }
+        .pacner:hover{
+            background-image: url("1517883392690.jpg");
+            scale: 1.0;
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem blanditiis, soluta eaque consectetur rerum voluptas veritatis incidunt expedita nemo impedit, reiciendis sunt vel deserunt voluptatum qui provident architecto natus quo.
+    </p>
+    <p class="obrazek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nobis maxime dignissimos porro itaque enim dolore illo vel voluptatibus officia. Atque facere labore beatae quisquam corrupti non necessitatibus iste obcaecati!
+    </p>
+    <div class="pacner"></div>
+</body>
+</html>
