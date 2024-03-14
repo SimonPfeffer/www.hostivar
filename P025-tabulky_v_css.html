@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atributy tabulek</title>
+    <style>
+        table{
+        border: 1px solid black; /*nastavuje ohraničení pouze pro okraj tabulky*/
+        margin: 10px;
+        width: 50vw;
+        height: 500px;
+        border-collapse: separate; /*collapse, separate - spojuje/odděluje rámečky buňěk*/ 
+        empty-cells: hide; /*hide, show - skryje nebo odkryje prázdné buňky => při hide nesmí být border-collapse: collapse;*/
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: green;
+            text-align: center;
+            vertical-align: middle; /*vertikální zarovnání - middle, top, bottom*/
+                }
+                .cervena{
+                    background-color: red;
+                }
+                .modra{
+                    background-color: blue;
+                }
+                th{
+                    color: rgb(105, 11, 200);
+                    font-weight: 400;
+                    font-size: 42px;
+                }
+    </style>
+</head>
+<body>
+   <caption>Popis tabulky</caption> 
+   <table>
+    <tr>
+        <th colspan="2">Hlavička tabulky</th>
+    </tr>
+    <tr>
+        <td class="cervena">Buňka 1</td>
+        <td class="cervena">Buňka 2</td>
+    </tr>
+    <tr>
+        <td rowspan="2" class="modra">Buňka 3</td>
+        <td class="modra">Buňka 4</td>
+    </tr>
+    <tr>
+        <td>Buňka 5</td>
+        <td></td>
+    </tr>
+   </table>
+</body>
+</html>
