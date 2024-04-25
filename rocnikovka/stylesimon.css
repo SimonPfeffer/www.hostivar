@@ -1,0 +1,131 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(122,122,122,0.5130427170868348) 35%, rgba(218,218,218,1) 100%);
+    background-repeat: repeat;
+}
+
+/* ZACATEK HLAVNI STRANKY */
+h1{
+   text-align: center;
+}
+
+a{
+   color: white ;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+
+
+
+.nadpis_hlavni{
+   color: rgb(70, 70, 70);
+}
+footer{
+   background-color: rgb(10, 10, 10);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   color: rgb(231, 229, 229);
+   
+}
+/* KONEC HLAVNI STRANKY */
+
+
+/* ZACATEK STRANKY INFO */
+
+
+
+ul{
+  list-style-type: none;
+  background-color: rgb(15, 15, 15);
+  padding: 0px;
+  margin: 0px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 32px;
+
+}
+
+.navbar a:hover{
+   background-color: rgb(46, 46, 46);
+   font-size: 36px;
+   font-weight: 700;
+}
+.navbar a:active{
+   text-decoration: underline;
+}
+li{
+   float: left;
+}
+.logo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 100px;
+}
+.nadpis_info{
+color: rgb(70, 70, 70);
+font-size: 2em;
+}
+/* KONEC STRANKY INFO */
+/* ZACATEK STRANKY GALERIE */
+
+.nadpis_galerie{
+    color: rgb(70, 70, 70);
+}
+.obrazky{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 350px;
+}
+.obrazky_druhy_radek{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 350px;
+        padding-top: 25px;
+}
+.obrazky_treti_radek{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 350px;
+        padding-top: 25px;
+}
+.obrazky_ctvrty_radek{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 350px;
+        padding-top: 25px;
+}
+.obrazky_paty_radek{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 780px;
+        padding-top: 25px;
+}
+/*KONEC STRANKY GALERIE*/
+
+/* ZACATEK STRANKY KONTAKTY */
+
+.nadpis_kontakty{
+    color: rgb(70, 70, 70);
+}
+.blok_s_kontakty{
+    background-color: rgb(15, 15, 15);
+    color: rgb(224, 221, 221);
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* KONEC STRANKY KONTAKTY */
